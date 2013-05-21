@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>autoform.js</title>
+	<style type="text/css">
+	table {
+		margin: 100px;
+		border: solid 1px #ccc;
+	}
+	table td {
+		border-top: solid 1px #ccc;
+		border-left:  solid 1px #ccc;
+	}
+	table tr:first-child td {
+		border-top: none;
+	}
+	table tr td:first-child {
+		border-left: none;
+	}
+	</style>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="mousetrap.min.js"></script>
+	<script src="jquery.autoform.js"></script>
+</head>
+<body>
+
+<form action="#" method="post">
+	<table>
+		<tr>
+			<td>テキスト</td>
+			<td><input type="text" name="text"></td>
+		</tr>
+		<tr>
+			<td>パスワード</td>
+			<td><input type="password" name="password"></td>
+		</tr>
+		<tr>
+			<td>チェックボックス</td>
+			<td>
+				車<input type="checkbox" name="checkbox[]" value="1">
+				自転車<input type="checkbox" name="checkbox[]" value="2">
+				飛行機<input type="checkbox" name="checkbox[]" value="3">
+			</td>
+		</tr>
+		<tr>
+			<td>チェックボックス2</td>
+			<td>
+				車<input type="checkbox" name="checkbox2[]" value="1">
+				自転車<input type="checkbox" name="checkbox2[]" value="2">
+				飛行機<input type="checkbox" name="checkbox2[]" value="3">
+				電車<input type="checkbox" name="checkbox2[]" value="4">
+				船<input type="checkbox" name="checkbox2[]" value="5">
+				宇宙船<input type="checkbox" name="checkbox2[]" value="6">
+			</td>
+		</tr>
+		<tr>
+			<td>ラジオ</td>
+			<td>
+				ジャッケット<input type="radio" name="radio" value="1">
+				パンツ<input type="radio" name="radio" value="2">
+				Tシャツ<input type="radio" name="radio" value="3">
+			</td>
+		</tr>
+		<tr>
+			<td>ラジオ2</td>
+			<td>
+				ジャッケット<input type="radio" name="radio2" value="1">
+				パンツ<input type="radio" name="radio2" value="2">
+				Tシャツ<input type="radio" name="radio2" value="3">
+			</td>
+		</tr>
+		<tr>
+			<td>オプション</td>
+			<td>
+				<select name="option">
+					<option value="">---</option>
+					<option value="1">選択肢1</option>
+					<option value="2">選択肢2</option>
+					<option value="3">選択肢3</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>テキストエリア</td>
+			<td><textarea name="textarea" id="" cols="30" rows="10"></textarea></td>
+		</tr>
+		<tr>
+			<td>ファイル</td>
+			<td><input type="file"></td>
+		</tr>
+		<tr>
+			<td>ヒドゥン</td>
+			<td><input type="hidden"></td>
+		</tr>
+		<tr>
+			<td>サブミット</td>
+			<td><input type="submit"></td>
+		</tr>
+		<tr>
+			<td>リセット</td>
+			<td><input type="reset"></td>
+		</tr>
+		<tr>
+			<td>ボタン</td>
+			<td><input type="button" value="button"></td>
+		</tr>
+		<tr>
+			<td>イメージ</td>
+			<td><input type="image" src="images/submit.png"></td>
+		</tr>
+	</table>
+</form>
+
+</body>
+</html>
