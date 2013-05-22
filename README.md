@@ -5,7 +5,7 @@ This is automatic input for form. using keybind. easy.
 
 ## Required
 * jquery2.0.0 
-* mousetrap.min.js (include this repository)
+* mousetrap.js (include this repository)
 * jquery.autoform.js (it's me)
 
 
