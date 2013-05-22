@@ -15,7 +15,7 @@ read only 3 files. that's all.
 
 ```
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-	<script src="mousetrap.min.js"></script>
+	<script src="mousetrap.js"></script>
 	<script src="jquery.autoform.js"></script>
 
 ```
